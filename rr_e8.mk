@@ -18,11 +18,15 @@
 # Inherit from e8 device
 $(call inherit-product, device/htc/e8/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_mini_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Gcam Go 
+$(call inherit-product, vendor/GcamGo/titan/config.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_e8
+PRODUCT_NAME := rr_e8
 PRODUCT_DEVICE := e8
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := e8

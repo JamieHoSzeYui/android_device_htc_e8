@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_e8.mk
+    $(LOCAL_DIR)/rr_e8.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_e8-user \
-    lineage_e8-userdebug \
-    lineage_e8-eng
+    rr_e8-user \
+    rr_e8-userdebug \
+    rr_e8-eng
