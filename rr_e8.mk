@@ -29,5 +29,5 @@ $(call inherit-product, vendor/GcamGo/titan/config.mk)
 PRODUCT_NAME := rr_e8
 PRODUCT_DEVICE := e8
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := e8
+PRODUCT_MODEL := HTC One E8
 PRODUCT_MANUFACTURER := HTC
